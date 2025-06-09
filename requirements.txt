@@ -1,0 +1,10 @@
+openai-whisper
+language-tool-python
+openai
+pandas
+openpyxl
+sounddevice
+scipy
+llama-cpp-python
+groq
+datasets 
