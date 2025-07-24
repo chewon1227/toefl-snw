@@ -8,3 +8,6 @@ scipy
 llama-cpp-python
 groq
 datasets 
+tabulate
+
+# also for ffmpeg : brew install ffmpeg
