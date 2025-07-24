@@ -119,7 +119,7 @@ def evaluate_response(audio_path, task_number):
     result = {
         "Date": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "Task": task_number,
-        "Transcript": transcript,  # ✅ Transcript 포함
+        "Transcript": transcript,
         "Grammar Score": grammar_score,
         "Grammar Feedback": "; ".join(grammar_feedback),
         "Pronunciation Score": pronunciation_score,
@@ -155,4 +155,3 @@ def record_and_transcribe(filename="input.wav", duration=60):
         f.write(transcript)
     print(f"Transcript saved as {txt_path}")
     return transcript
-
