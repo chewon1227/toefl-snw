@@ -102,7 +102,7 @@ def evaluate_toefl_rubric(text, task_num):
 
 def get_results(data, excel_path="toefl_speaking_results.xlsx"):
     df = pd.DataFrame([data])
-    print("\n📊 Evaluation Result:")
+    print("\n Evaluation Result:")
     print(df.to_markdown(index=False))
 
     if os.path.exists(excel_path):
